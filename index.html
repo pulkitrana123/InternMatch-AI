@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Internship Portal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>AI Internship Portal</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#internships">Internships</a></li>
+                <li><a href="#apply">Apply</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h2>Welcome to AI Internship Portal</h2>
+            <p>Discover exciting internship opportunities in Artificial Intelligence. Connect with leading companies and kickstart your career in AI.</p>
+        </section>
+        <section id="internships">
+            <h2>Available Internships</h2>
+            <div class="internship">
+                <h3>Machine Learning Intern</h3>
+                <p>Work on cutting-edge machine learning projects with our team. Gain hands-on experience in data analysis and model development.</p>
+                <p><strong>Duration:</strong> 3 months</p>
+                <p><strong>Location:</strong> Remote</p>
+            </div>
+            <div class="internship">
+                <h3>AI Research Assistant</h3>
+                <p>Assist in AI research initiatives, including literature review and experimental design. Ideal for students interested in academic AI.</p>
+                <p><strong>Duration:</strong> 6 months</p>
+                <p><strong>Location:</strong> On-site</p>
+            </div>
+            <div class="internship">
+                <h3>Natural Language Processing Intern</h3>
+                <p>Develop and optimize NLP models for real-world applications. Learn about transformers and large language models.</p>
+                <p><strong>Duration:</strong> 4 months</p>
+                <p><strong>Location:</strong> Hybrid</p>
+            </div>
+        </section>
+        <section id="apply">
+            <h2>Apply Now</h2>
+            <form id="applicationForm">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone">
+                
+                <label for="internship">Preferred Internship:</label>
+                <select id="internship" name="internship">
+                    <option value="">Select an internship</option>
+                    <option value="ml">Machine Learning Intern</option>
+                    <option value="research">AI Research Assistant</option>
+                    <option value="nlp">Natural Language Processing Intern</option>
+                </select>
+                
+                <label for="resume">Resume (optional):</label>
+                <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx">
+                
+                <button type="submit">Submit Application</button>
+            </form>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>If you have any questions, feel free to reach out:</p>
+            <p>Email: info@aiinternshipportal.com</p>
+            <p>Phone: (123) 456-7890</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 AI Internship Portal. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
